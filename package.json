@@ -1,0 +1,33 @@
+{
+  "name": "test-curp",
+  "version": "1.0.0",
+  "description": "Validador de curp",
+  "main": "bin/cli.js",
+  "bin": {
+    "test-curp": "cli.js"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "eslint": "eslint --ext .js src/ test/",
+    "test": "jest --coverage",
+    "curp": "curp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarenHippitaku/test-curp.git"
+  },
+  "keywords": [
+    "validator",
+    "curp",
+    "nodejs"
+  ],
+  "author": "Karen Hippitaku",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KarenHippitaku/test-curp/issues"
+  },
+  "homepage": "https://github.com/KarenHippitaku/test-curp#readme"
+}
